@@ -30,6 +30,7 @@ public class DisplayMessageActivity extends Activity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         message += "red_0224_1:41";
+        message += "blue_0224_1:53";
         
         //Create Test View
         TextView textView = new TextView(this);
