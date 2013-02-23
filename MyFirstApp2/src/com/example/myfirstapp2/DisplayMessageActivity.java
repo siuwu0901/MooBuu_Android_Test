@@ -29,7 +29,7 @@ public class DisplayMessageActivity extends Activity {
         //Get Message From Intent
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        message += "hark3:34";
+        message += "hark_0223_5:34";
         
         //Create Test View
         TextView textView = new TextView(this);
