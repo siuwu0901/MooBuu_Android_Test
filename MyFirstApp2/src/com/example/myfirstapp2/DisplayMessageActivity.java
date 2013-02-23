@@ -32,6 +32,7 @@ public class DisplayMessageActivity extends Activity {
         message += "red_0224_1:41";
         message += "red_0224_1:47";
         message += "blue_0224_1:53";
+        message += "rebased_red_0224_2:07";
         
         //Create Test View
         TextView textView = new TextView(this);
